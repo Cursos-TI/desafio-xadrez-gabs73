@@ -80,7 +80,7 @@ printf("Informe a direção que a torre andará:\n");
     }
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-    for(int i=1;i<=mov_bishop;i++){
+    for(int i=1;i<=mov_queen;i++){
         if(dir_queen==1){
             printf("Rainha andou uma casa para frente e uma casa para direita.\n");
         }else if(dir_queen==2){
@@ -100,7 +100,7 @@ printf("Informe a direção que a torre andará:\n");
         }else{
             printf("Erro");
         }
-    }
+    }  
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
